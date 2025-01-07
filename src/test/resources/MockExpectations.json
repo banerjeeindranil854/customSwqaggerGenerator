@@ -1,0 +1,44 @@
+[
+  {
+    "testName": "dataTransfer",
+    "path": "/customers/2347061555567/dataTransfer",
+    "contentType": "json",
+    "method": "post"
+  },
+  {
+    "testName": "acsTransfer",
+    "path": "/customers/231706155556/acsTransfer",
+    "contentType": "json",
+    "method": "post"
+  },
+  {
+    "testName": "airtimeTransfer",
+    "path": "/customers/2347061555567/airtimeTransfer",
+    "contentType": "json",
+    "method": "post"
+  },
+  {
+    "testName": "airtimeTransferGHA",
+    "path": "/customers/233706155556/airtimeTransfer",
+    "contentType": "json",
+    "method": "post"
+  },
+  {
+    "testName": "airtimeTransferGHACallback",
+    "path": "/callback",
+    "contentType": "json",
+    "method": "post"
+  },
+  {
+    "testName": "smeData",
+    "path": "/customers/2347061555567/smeData",
+    "contentType": "json",
+    "method": "post"
+  },
+  {
+    "testName": "transactionStatus",
+    "path": "/customers/transactionStatus",
+    "contentType": "json",
+    "method": "get"
+  }
+]

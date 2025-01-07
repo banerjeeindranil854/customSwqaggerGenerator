@@ -1,0 +1,16 @@
+<APIProxy name="edgemicro_ug_staging_experiencelayer_customers" revision="1">
+    <Basepaths>{basePaths}</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0" />
+    <Description>{description}</Description>
+    <DisplayName>{proxyName}</DisplayName>
+    <Policies />
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources />
+    <Spec />
+    <TargetServers />
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

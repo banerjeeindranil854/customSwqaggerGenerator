@@ -1,0 +1,15 @@
+<configuration>
+    <appender name="jsonConsoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="net.logstash.logback.encoder.LogstashEncoder">
+            <includeMdcKeyName>transactionId</includeMdcKeyName>
+            <includeMdcKeyName>msisdn</includeMdcKeyName>
+            <includeMdcKeyName>sequenceNo</includeMdcKeyName>
+            <includeMdcKeyName>partnerName</includeMdcKeyName>
+            <includeMdcKeyName>X-B3-TraceId</includeMdcKeyName>
+            <includeMdcKeyName>X-B3-SpanId</includeMdcKeyName>
+        </encoder>
+    </appender>
+    <root level="INFO">
+        <appender-ref ref="jsonConsoleAppender"/>
+    </root>
+</configuration>
